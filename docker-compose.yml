@@ -1,0 +1,7 @@
+web-client:
+  build: "../web-client"
+  dockerfile: Dockerfile
+  ports:
+  - 80:80
+  volumes:
+  - "../web-client/build/:/usr/share/nginx/html/"
