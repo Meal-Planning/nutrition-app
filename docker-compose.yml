@@ -1,3 +1,17 @@
+nutrition-service:
+  build: "../nutrition-service"
+  dockerfile: Dockerfile
+  ports:
+  - 3001:3001
+  - 5858:5858
+  volumes:
+  - "../nutrition-service:/src"
+  working_dir: "/src"
+  environment:
+  - PORT=3001
+  external_links:
+  - mongo-test
+
 web-client:
   build: "../web-client"
   dockerfile: Dockerfile
@@ -5,3 +19,5 @@ web-client:
   - 80:80
   volumes:
   - "../web-client/build/:/usr/share/nginx/html/"
+  links:
+  - nutrition-service

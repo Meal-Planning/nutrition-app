@@ -1,0 +1,8 @@
+mongo:
+  image: mongo
+  container_name: mongo-test
+  volumes:
+  - "./data:/data"
+  - "./data/db:/data/db"
+  ports:
+  - 27017:27017

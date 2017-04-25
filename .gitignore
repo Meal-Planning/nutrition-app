@@ -1,0 +1,5 @@
+#intelliJ
+/.idea
+
+#database backup
+/data
