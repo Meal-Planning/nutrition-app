@@ -1,1 +1,1 @@
-# nutrition-app [![Stories in Ready](https://badge.waffle.io/Meal-Planning/nutrition-app.png?label=in progress&title=In Progress)](http://waffle.io/Meal-Planning/nutrition-app)
+# nutrition-app [![Stories in Ready](https://badge.waffle.io/Meal-Planning/nutrition-app.png?label=in%20progress&title=In%20Progress)](http://waffle.io/Meal-Planning/nutrition-app)
