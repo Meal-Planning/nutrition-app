@@ -13,7 +13,7 @@ nutrition-service:
   - mongo-test
 
 web-client:
-  build: "../web-client"
+  build: "../nutrition-web-client"
   dockerfile: Dockerfile
   ports:
   - 80:80
